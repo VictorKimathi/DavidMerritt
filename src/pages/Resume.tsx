@@ -6,10 +6,13 @@ const Resume = () => {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-3xl md:text-4xl font-bold">Resume</h1>
+          <a href="David_Merritt Resume_Home & Lifestyle.docx" download className="hidden md:block">
           <button className="flex items-center bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-md transition-colors">
             <DownloadIcon size={18} className="mr-2" />
             Download PDF
           </button>
+          </a>
+       
         </div>
         <div className="bg-white border border-gray-200 rounded-lg shadow-sm p-8 mb-8">
           <div className="mb-8">
