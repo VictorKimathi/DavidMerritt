@@ -6,7 +6,7 @@ const About = () => {
         <h1 className="text-3xl md:text-4xl font-bold mb-8">Start Here</h1>
         <div className="flex flex-col md:flex-row gap-8 mb-12">
           <div className="md:w-1/3">
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="David Merritt" className="w-full h-auto rounded-lg shadow-md" />
+            <img src="profile.jpg" alt="David Merritt" className="w-full h-auto rounded-lg shadow-md" />
           </div>
           <div className="md:w-2/3">
             <h2 className="text-2xl font-bold mb-4">About David</h2>
