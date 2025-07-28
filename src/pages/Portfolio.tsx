@@ -3,34 +3,25 @@ import ProjectCard from '../components/ProjectCard';
 const Portfolio = () => {
   const projects = [{
     id: 1,
-    title: 'Designing Your Dream Cozy Nook',
-    description: 'Explored practical tips for creating a comfortable reading corner using repurposed furniture and budget-friendly decor items.',
+    title: 'Establishing a Home Reset Routine to Keep Your Space Fresh',
+    description: 'A clean and functional home is easier to maintain with consistent weekly habits. Without a routine, clutter builds up, tasks pile on, and the space becomes harder to manage. A home reset routine helps break this cycle by setting aside regular time to tidy, clean, and restore order before things get out of hand.',
     image: 'https://images.unsplash.com/photo-1585128903994-9788298932a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80',
-    alt: 'Cozy reading nook'
+    alt: 'Cozy reading nook',
+    href: 'Establishing_a_Home.pdf'
   }, {
     id: 2,
-    title: 'Budget-Friendly Farmhouse Decor Updates',
-    description: 'Discover simple ways to bring farmhouse charm to your home without breaking the bank, focusing on DIY solutions and smart shopping.',
+    title: 'Clever Storage Ideas for Small Kitchens That Maximize Every Inch',
+    description: 'Small kitchens often present a challenge when it comes to storage, but limited space doesn’t have to mean limited functionality. With the right strategies, even the most compact kitchen can be organized, efficient, and pleasant to use. The key lies in making smart use of every available area, from overlooked corners to vertical surfaces. By rethinking how and where items are stored, you can reduce clutter and create a layout that supports daily tasks without feeling cramped.',
     image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
-    alt: 'Farmhouse decor'
+    alt: 'Farmhouse decor',
+    href: 'Clever_Storage_Ideas.pdf'
   }, {
     id: 3,
-    title: 'DIY Vertical Herb Garden for Small Spaces',
-    description: 'Step-by-step guide to creating a space-efficient herb garden for urban apartments, complete with maintenance tips and herb selection advice.',
+    title: 'Designing a Cozy Reading Nook with Small Space Comfort in Mind',
+    description: 'Creating a cozy reading nook doesn’t require a large home or a spare room. With a bit of creativity and thoughtful planning, even the smallest spaces can be transformed into a warm, inviting corner perfect for reading and unwinding. Whether it’s a quiet spot by a window, an unused closet, or a simple corner in your living room, a few design choices can help carve out a peaceful retreat that fits your lifestyle and space limitations.',
     image: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
-    alt: 'Vertical herb garden'
-  }, {
-    id: 4,
-    title: 'The Ultimate Guide to Kitchen Organization',
-    description: 'Comprehensive strategies for maximizing kitchen space and efficiency, from pantry systems to drawer dividers and smart storage solutions.',
-    image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1768&q=80',
-    alt: 'Organized kitchen'
-  }, {
-    id: 5,
-    title: "Sustainable Home Choices: A Beginner's Guide",
-    description: 'An introduction to eco-friendly home products and practices, with practical first steps for homeowners looking to reduce their environmental impact.',
-    image: 'https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80',
-    alt: 'Sustainable home items'
+    alt: 'Vertical herb garden',
+    href: ''Designing_a_Cozy.pdf
   }];
   return <div className="bg-white w-full">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
