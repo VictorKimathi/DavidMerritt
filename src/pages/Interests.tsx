@@ -44,7 +44,7 @@ const Interests = () => {
     id: 5,
     title: 'Exploring Antique Markets',
     description: 'Weekends often find me wandering through antique markets and estate sales, hunting for unique pieces with history and character. These excursions are not just about finding treasures for my home but also about understanding design evolution and craftsmanship techniques from different eras. This knowledge enriches my writing on vintage decor trends and helps me guide readers on what to look for when investing in antique pieces.',
-    image: 'https://images.unsplash.com/photo-1631125915902-d8eda4498b55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1727&q=80',
+    image: 'https://media.istockphoto.com/id/614038800/photo/flea-market.jpg?s=612x612&w=0&k=20&c=4qNiALU0tDwq8XEErDxP-2uv2j07lzVmpYkGkhHFwgc=',
     alt: 'Antique market'
   }];
   return <div className="bg-white w-full pt-16 md:pt-0">

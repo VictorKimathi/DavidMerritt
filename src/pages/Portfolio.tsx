@@ -21,7 +21,7 @@ const Portfolio = () => {
     description: 'Creating a cozy reading nook doesn’t require a large home or a spare room. With a bit of creativity and thoughtful planning, even the smallest spaces can be transformed into a warm, inviting corner perfect for reading and unwinding. Whether it’s a quiet spot by a window, an unused closet, or a simple corner in your living room, a few design choices can help carve out a peaceful retreat that fits your lifestyle and space limitations.',
     image: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80',
     alt: 'Vertical herb garden',
-    href: ''Designing_a_Cozy.pdf
+    href: 'Designing_a_Cozy.pdf'
   }];
   return <div className="bg-white w-full">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
