@@ -32,7 +32,7 @@ const Portfolio = () => {
           content that balances trend awareness with practical advice.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {projects.map(project => <ProjectCard key={project.id} title={project.title} description={project.description} image={project.image} alt={project.alt} />)}
+          {projects.map(project => <ProjectCard key={project.id} title={project.title} description={project.description} image={project.image} alt={project.alt} href={project.href}/>)}
         </div>
       </div>
     </div>;

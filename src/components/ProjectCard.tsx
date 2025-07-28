@@ -4,15 +4,18 @@ interface ProjectCardProps {
   description: string;
   image: string;
   alt: string;
+  href?: string;
 }
 const ProjectCard = ({
   title,
   description,
   image,
-  alt
+  alt,
+  href
 }: ProjectCardProps) => {
   return <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
-      <img src={image} alt={alt} className="w-full h-48 object-cover" />
+     <a href={href} target="_blank" rel="noopener noreferrer" className="block">
+     <img src={image} alt={alt} className="w-full h-48 object-cover" />
       <div className="p-6">
         <h3 className="text-xl font-bold mb-2">{title}</h3>
         <p className="text-gray-700 mb-4">{description}</p>
@@ -20,6 +23,8 @@ const ProjectCard = ({
           Read Article <span className="ml-1">→</span>
         </button>
       </div>
+      </a> 
+    
     </div>;
 };
 export default ProjectCard;
